@@ -4,6 +4,60 @@
         <title>Hello World</title>
     </head>
     <body>
-        <h1>Hello, World!</h1>
+        
+        <h1 style="color: orange; background: green;">Hello, World!</h1>
+        <p>This is a sentence.</p>
+        <p>Second line of my web page.</p>
+        <p>HTML is awesome,</p>
+        <p>No more paragraphs...</p>
+        
+        <ul>
+            <li style="list-style: none;">List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+        
+        
+        
+        <blockquote cite="http://developer.mozilla.org">
+            <p>"This is a quotation taken from the Mozilla Developer Center."</p>
+        </blockquote>
+        
+        <address>
+            You can contact author at <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
+            If you see any bugs, please <a href="mailto:webmaster@somedomain.com">contact webmaster</a>.<br>
+            You may also want to visit us:<br>
+            Mozilla Foundation<br>
+            1981 Landings Drive<br>
+            Building K<br>
+            Mountain View, CA 94043-0801<br>
+            USA
+        </address>
+        
+        <button name="button">Email me</button>
+        
+        <!-- Simple form which will send a GET request -->
+<form action="">
+  <label for="GET-name">Name:</label>
+  <input id="GET-name" type="text">
+  <input type="submit" value="Save">
+</form>
+
+<!-- Simple form which will send a POST request -->
+<form action="" method="post">
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text">
+  <input type="submit" value="Save">
+</form>
+
+<!-- Form with fieldset, legend, and label -->
+<form action="" method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <input type="radio" id="radio"> <label for="radio">Click me</label>
+  </fieldset>
+</form>
+        
     </body>
 </html>
